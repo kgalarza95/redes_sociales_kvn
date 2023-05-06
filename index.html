@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Redes Sociales</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body class="is-preload">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+
+		<div id="main">
+
+			<!-- Header -->
+			<header id="header">
+				<h1>Kevin Jordan Galarza Vera</h1>
+				<p>Desarrollador &nbsp;&bull;&nbsp; Apasionado por la tecnología &nbsp;&bull;&nbsp; Creativo
+					&nbsp;&bull;&nbsp; Resolutivo</p>
+
+				<nav>
+					<ul>
+						<li><a href="https://api.whatsapp.com/send/?phone=593961251803&text=Hola,%20%C2%BFc%C3%B3mo%20est%C3%A1s?&type=phone_number&app_absent=0"
+								class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100086871617429&mibextid=ZbWKw"
+								class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/in/kevin-galarza-vera/"
+								class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/kgalarza95" class="icon brands fa-github"><span
+									class="label">Github</span></a></li>
+						<li><a href="https://t.me/programacionjavapoo" class="fab fa-telegram"><span
+									class="label">Telegram</span></a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; By: <a href="#">Kevin Galarza</a>.</span>
+			</footer>
+
+		</div>
+	</div>
+
+	<script>
+		// Define una función que se ejecuta cuando la página web ha terminado de cargarse
+		window.onload = function () {
+			// Remueve la clase 'is-preload' del elemento 'body' del documento HTML
+			document.body.classList.remove('is-preload');
+		}
+
+		// Define una función que se ejecuta cuando el usuario toca la pantalla del dispositivo
+		window.ontouchmove = function () {
+			// Evita que la página se mueva
+			return false;
+		}
+
+		// Define una función que se ejecuta cuando se cambia la orientación del dispositivo
+		window.onorientationchange = function () {
+			// Establece la posición de desplazamiento de la página en 0 (inicio)
+			document.body.scrollTop = 0;
+		}
+	</script>
+
+
+</body>
+
+</html>
